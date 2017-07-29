@@ -15,11 +15,11 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/acer/Z520/device.mk)
+$(call inherit-product, device/acer/acer_Z520/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Z520
-PRODUCT_NAME := omni_Z520
+PRODUCT_DEVICE := acer_Z520
+PRODUCT_NAME := omni_acer_Z520
 PRODUCT_BRAND := acer
 PRODUCT_MANUFACTURER := Acer
-PRODUCT_MODEL := Z500
+PRODUCT_MODEL := Z520
